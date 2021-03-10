@@ -1,0 +1,28 @@
+/*通用样式*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     /*总宽=宽+margin*/
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+a{
+    text-decoration: none;
+    color:#999;
+}
+li{
+    list-style-type: none;
+}
+.clear{
+    clear: both;
+}
+body{
+    font:12px  Microsoft YaHei,tahoma,arial,Hiragino Sans GB,sans-serif;
+    background:#f4f4f4  url("../images/ban-bg.webp") no-repeat center 250px ;
+    /*垂直位置向下250px*/
+}
